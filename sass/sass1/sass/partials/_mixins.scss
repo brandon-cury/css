@@ -1,0 +1,14 @@
+@mixin settingSection($bg: $primary, $color: $secondary) {
+  padding: 0 30px 30px 30px;
+  background-color: $bg;
+  color: $color;
+}
+@mixin theme-color($light-theme: true) {
+  @if $light-theme {
+    background-color: $light-background;
+    color: $light-color;
+  } @else {
+    background-color: $dark-background;
+    color: $dark-text;
+  }
+}

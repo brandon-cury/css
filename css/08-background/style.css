@@ -1,0 +1,14 @@
+header {
+  position: relative;
+  background-image: url("img1.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100dvh;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  line-height: 150px;
+}

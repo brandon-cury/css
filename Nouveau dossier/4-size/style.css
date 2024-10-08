@@ -1,0 +1,133 @@
+/* 
+Pas oligatoire mais plus simple d'utilisation
+- Typescale puis nommer les différents titres
+line-height -> rapport hauteur de ligne (en dessous de tous les h1 il y a tel écart) 
+*/
+/* Settings */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@1,6..12,300&family=Playfair+Display&display=swap");
+
+html {
+  font-size: 1rem;
+  font-family: "Ubuntu";
+  /*
+  La taille de la box va s'adapter si on met une 
+  border, margin, padding,... 
+  */
+  box-sizing: border-box;
+}
+
+h3 {
+  font-size: 3.157rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  font-family: "Nunito Sans";
+}
+
+h2 {
+  font-size: 4.209rem;
+  margin: 1.5rem 2rem;
+  border-bottom: 2px solid black;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5.61rem;
+  margin: 1.5rem 1.8rem;
+  font-family: "Playfair Display", serif;
+}
+
+p {
+  margin-bottom: 1rem;
+  margin-left: 5rem;
+  line-height: 1.5rem;
+}
+/* END Settings */
+h1 {
+  text-align: center;
+  color: #1077f2;
+}
+
+/*
+Images responsives
+- Prends toute la largeur du conteneur
+- Hauteur auto
+*/
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* SECTION GALERIE */
+
+#galerie {
+  background-color: #6b6b6b;
+  padding: 2rem 0;
+}
+
+.titleGalerie {
+  color: #e2e2e2;
+  margin-top: 0;
+}
+
+figure {
+  width: 45rem;
+}
+
+figcaption {
+  margin: 1rem 0;
+  color: #e2e2e2;
+}
+
+/* FIN SECTION GALERIE */
+
+/*
+  Margin = bordure extérieure, autour de la forme
+  margin possible sur une seule ligne
+  Padding = bordure intérieure, à l'intérieure de la forme
+*/
+p,
+figure,
+form,
+ul {
+  margin-left: 5rem;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+.imgInstal {
+  height: 25em;
+}
+
+.underLine {
+  border: none;
+  /*
+  outline: none;
+  pas utiliser sinon cela peut briser la 
+  navigation par tabulation 
+  */
+  border-bottom: 1px solid #1077f2;
+}
+
+textarea {
+  margin-top: 2em;
+  border-color: #1077f2;
+}
+
+.sendBtn {
+  border: none;
+  border-bottom: 1px solid #1077f2;
+}
+
+footer {
+  background-color: #1077f2;
+  text-align: center;
+  padding: 3.25em;
+  margin-top: 5rem;
+}
+
+.mentions {
+  color: #0f0fa7;
+}

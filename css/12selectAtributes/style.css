@@ -1,0 +1,17 @@
+html {
+  font-size: 40px;
+}
+p[lang="it"] {
+  background-color: red;
+}
+
+form input[type="submit"] {
+  background-color: red;
+}
+form input[type="email"] {
+  background-color: grey;
+}
+
+a[href^="http"] {
+  background-color: orange;
+}

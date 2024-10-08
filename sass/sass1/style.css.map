@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["sass/partials/_settings.scss","sass/partials/_body.scss","sass/partials/_variables.scss","sass/partials/_mixins.scss"],"names":[],"mappings":"AAAA;EACE;EACA;;;AAGF;EACE;EACA;EACA;EACA;;;AAKF;EAGE;;;ACfF;EACE,kBCDQ;;;ADMV;EAFE;;;AAQF;EAFE;;;AAMF;EEjBE;EACA;EACA,ODCU;;;ADiBZ;EEpBE;EACA,kBDEU;ECDV,ODDQ","file":"style.css"}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Compu Web</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#skills">Nos compétences</a></li>
+                <li><a href="#gallery">Nos bureaux</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- END HEADER -->
+
+
+    <main>
+        <h1>Solution Web</h1>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>Notre histoire</h2>
+
+            <div class="about">
+                <img src="img/web-1045994_640-removebg-preview.png" alt="img de solution web">
+                <!-- je regroupe mes deux paragraphes dans une même div pour utiliser mon display flex. un coté sera donc l'image et l'autre coté de l'écran sera mon """"bloc""" de paragraphes. -->
+                <div class="paraAbout">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem debitis dicta officia odit ullam
+                        sed vero facere aut tempora, enim quae quisquam corporis expedita ipsam et adipisci cumque
+                        commodi non, perspiciatis rerum itaque minima quo quibusdam dolor. Magnam modi unde eligendi
+                        asperiores dolorum et suscipit, fugit error ipsam vero autem itaque, porro aperiam hic ab
+                        assumenda adipisci qui quis doloribus ex, minima in earum temporibus voluptatum. Id perferendis
+                        quae adipisci quod dolor alias temporibus quis a. Nisi error quam eligendi iure quae! Obcaecati
+                        est accusantium, optio sunt aspernatur minima impedit veniam rem fugit atque cupiditate error
+                        officia enim eum ab!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni, consectetur ut animi vero
+                        soluta fugit possimus nam provident sunt quod a maxime quas eligendi eius, fuga officia fugiat
+                        modi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae sit natus quis quam
+                        quisquam cum. Voluptatum mollitia consequatur iste optio! Labore quos velit minima ad explicabo.
+                        Inventore cum impedit suscipit deserunt eius aut perferendis nemo esse dolores architecto!
+                        Recusandae quidem eos doloribus blanditiis. Necessitatibus dicta reiciendis minima fugit unde
+                        eum, sint hic doloribus voluptatum repellat officia laudantium a veritatis ad explicabo
+                        temporibus? Accusantium dolore eius, quos quae hic beatae cupiditate expedita corrupti tempora
+                        eos necessitatibus recusandae minus natus reprehenderit vitae sed laboriosam accusamus at
+                        nesciunt doloribus. Cum consectetur quo temporibus voluptatum sed natus perspiciatis sit enim
+                        dolore quia exercitationem blanditiis odit tenetur modi, labore, et asperiores ab laudantium at.
+                        Facere blanditiis natus beatae doloribus harum inventore distinctio similique incidunt,
+                        deserunt, modi officia, at eveniet aut obcaecati odit quae tempora sint? Laudantium sapiente
+                        distinctio tempore. Odio facilis dignissimos unde quaerat nam dolore maxime nesciunt blanditiis
+                        dolorem aliquam voluptatum pariatur a reprehenderit quidem expedita iure non, quia labore ut
+                        nihil molestias modi sit atque. Itaque, molestias ad eveniet suscipit nesciunt quae atque veniam
+                        repellendus iste quibusdam dicta ratione sint minus nisi, quis quisquam impedit natus
+                        distinctio? Impedit eius, consequuntur reiciendis fugit aspernatur atque earum officiis nihil
+                        eveniet a voluptates ratione distinctio dicta.</p>
+                </div>
+            </div>
+        </section>
+        <!-- END ABOUT -->
+
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>Nos compétences</h2>
+            <div class="plcompet">
+                <h3>Html</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorum eveniet quaerat ut dicta
+                    temporibus doloremque, labore debitis saepe autem iste in. Vitae blanditiis optio consectetur
+                    corrupti,
+                    numquam porro voluptas?</p>
+                <h3>Css</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquam magnam veniam dolorum
+                    excepturi
+                    doloribus repellendus sit eos, magni eaque perspiciatis! Debitis quam suscipit eaque autem ex maxime
+                    laboriosam sunt impedit cupiditate facilis voluptate a, minus fugiat, quod corporis soluta.</p>
+                <h3>Javascript</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam aliquam magnam veniam dolorum
+                    excepturi
+                    doloribus repellendus sit eos, magni eaque perspiciatis! Debitis quam suscipit eaque autem ex maxime
+                    laboriosam sunt impedit cupiditate facilis voluptate a, minus fugiat, quod corporis soluta.</p>
+            </div>
+        </section>
+        <!-- END SKILLS -->
+
+        <!-- GALLERY -->
+        <section id="gallery">
+            <h2 class="h2Gallery">Nos bureaux</h2>
+            <div class="flexGallery">
+                <img src="img/gallery1.jpg" alt="img de nos bureaux">
+
+                <img src="img/gallery2.jpg" alt="img de nos bureaux">
+                <img src="img/gallery3.jpg" alt="img de nos bureaux">
+            </div>
+        </section>
+        <!-- END GALLERY -->
+
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- je crée un display flex: la partie "gauche sera mon formulaire", la partie droite, la carte? j'ai donc "englobé toute la partie gauche pour ne former qu'un bloc dans une div" -->
+            <div class="flexFormulaire">
+                <div class="contactFormulaire">
+                    <label for="name">Nom</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="lastname">Prénom</label><br>
+                    <input type="text" name="lastname" id="lastname"><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <textarea name="message" id="mesage" cols="30" rows="10"
+                        placeholder="Votre message..."></textarea><br>
+                    <input type="submit" value="Envoyer">
+                </div>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.6732609742967!2d4.8775642!3d50.4658088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c199117927f9e9%3A0x306df450d8ca6508!2sPl.%20de%20l&#39;Ecole%20des%20Cadets%206%2C%205000%20Namur!5e0!3m2!1sfr!2sbe!4v1703071648542!5m2!1sfr!2sbe"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- END CONTACT -->
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <ul>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#skills">Nos compétences</a></li>
+            <li><a href="#gallery">Nos bureaux</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <img src="img/web-1045994_640-removebg-preview.png" alt="">
+    </footer>
+    <!-- END FOOTER -->
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+html {
+  width: 100%;
+}
+img {
+  width: 30.33%;
+  height: auto;
+  border-radius: 25px 100px 200px 50px;
+}
+.galery {
+  width: 100%;
+  display: flex;
+  gap: 25px;
+}
+.opacity {
+  filter: opacity(25%);
+}
+.flur {
+  filter: blur(2px);
+}
+.fonceImage {
+  filter: brightness(0.4);
+  filter: contrast(300%); /*pour rendre l'image plus foncé*/
+  filter: grayscale(100%); /* permet de mettre une image en gris*/
+  filter: hue-rotate(190deg) invert(20%); /* permet de resortir une couleur sur une image */
+  filter: invert(20%); /* permet d'inverser les couleur */
+  filter: sepia(100%); /* pour faire un effet de vielle photo */
+}

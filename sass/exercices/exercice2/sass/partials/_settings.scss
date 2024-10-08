@@ -1,0 +1,39 @@
+/* Setting Scale 1.250 */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+  font-size: 1rem;
+  background: $color-clair;
+  color: $color-black;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+}
+h2 {
+  font-size: 3.052rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+  padding-left: 12px;
+}
+h3 {
+  font-size: 2.441rem;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.953rem;
+}
+.active {
+  display: block;
+}
+.desactive {
+  display: none;
+}
+/* endSetting */

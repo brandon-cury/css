@@ -1,0 +1,163 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+  font-size: 1rem;
+}
+/* seting */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&family=Roboto+Mono:ital,wght@1,100&family=Roboto:wght@100;400&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: #3f48cc;
+}
+h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+}
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #3f48cc;
+}
+p {
+  font-size: 12px;
+  font-weight: lighter;
+  font-family: "Lobster", sans-serif;
+  color: black;
+}
+#historique,
+#Noscompetences,
+#contact {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#historique,
+#Noscompetences,
+#nosBureau,
+#contact {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* endSeting */
+/* header */
+.titleNav {
+  display: flex;
+  min-height: 450px;
+  background-image: url(img/headerOk.jpg);
+  background-size: cover;
+}
+.titleNav .title {
+  width: 100px;
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+}
+.nav {
+  width: 100%;
+  height: 60px;
+  display: flex;
+}
+.nav ul {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+  height: auto;
+  margin: 10px 0;
+  justify-content: end;
+}
+.nav ul li {
+  margin: auto 0;
+  font-size: 18px;
+}
+.nav ul li:last-child {
+  margin-right: 25px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* header */
+/* histoire */
+#historique .imgText {
+  display: flex;
+}
+#historique .imgText img {
+  width: 50%;
+  height: auto;
+}
+#historique .imgText .text {
+  width: 100%;
+}
+#historique .imgText .text p {
+  margin-top: 10px;
+}
+/* endHistoire */
+/* competences */
+#Noscompetences p {
+  padding-left: 30px;
+}
+/* endCompetences */
+/* bureau */
+#nosBureau {
+  position: relative;
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  height: 400px;
+}
+#nosBureau .nosBureauCentre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 70%;
+  transform: translate(-50%, -50%);
+}
+#nosBureau h2 {
+  color: white;
+}
+#nosBureau .galerieBureau {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+#nosBureau .galerieBureau img {
+  width: 20%;
+  border-radius: 10px;
+}
+/* endBureau */
+/* Contact */
+#contact .formGps {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+/* endContact */
+/* Footer */
+footer {
+  height: 400px;
+  background-color: #3f48cc;
+  background-image: url("img/web-1045994_640-removebg-preview.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer .nav ul {
+  justify-content: center;
+}
+/* endFooter */

@@ -1,0 +1,44 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+h1 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 10em;
+}
+
+h1,
+#infosup {
+  color: #3539ca;
+}
+h1 {
+  text-decoration: underline #3539ca;
+}
+
+h2 {
+  color: #f94706;
+}
+h2 {
+  text-decoration: underline #f94706;
+}
+
+p {
+  color: #252525;
+}
+
+form {
+  color: #d17614;
+}
+form {
+  text-decoration: underline #f94706;
+}
+
+label {
+  color: #f94706;
+}

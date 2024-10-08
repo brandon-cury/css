@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Select</title>
+  </head>
+  <body>
+    <h1>Form Select</h1>
+
+    <form action="#" method="get">
+      <label for="fct">Votre fonction:</label>
+      <select name="fonction" id="fct">
+        <option value="teacher">Enseigant</option>
+        <option value="director">Directeur</option>
+        <option value="secretaire">secretaire</option>
+        <option value=""></option>
+        <option value=""></option>
+      </select>
+    </form>
+
+    <h2>Liste structurée</h2>
+    <form action="#" method="get">
+      <label for="pays">Selectionnez votre pays</label>
+      <select name="pays" id="pays">
+        <option>Votre pays...</option>
+        <optgroup label="Europe">
+          <option value="be">Belgique</option>
+          <option value="fr">France</option>
+          <option value="it">Italie</option>
+        </optgroup>
+        <optgroup label="Amerique">
+          <option value="ar">Argentine</option>
+          <option value="ca">Canada</option>
+        </optgroup>
+      </select>
+    </form>
+
+    <h2>Liste ouverte et multimple</h2>
+    <form action="#" method="get">
+      <label for="fct">Fonction</label>
+      <select name="fonctions" id="fonctions" size="5">
+        <option value="teacher">Enseigant</option>
+        <option value="dir">Directeur</option>
+        <option value="econome">Comtable</option>
+        <option value="sec">secretaire</option>
+        <option value="student">Etudiant</option>
+        <option value="sd">Sous Directeur</option>
+      </select>
+    </form>
+  </body>
+</html>

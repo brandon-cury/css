@@ -1,0 +1,46 @@
+@mixin settingSection(
+  $h2: false,
+  $bg: $color-clair,
+  $color: $color-black,
+  $height: 900px,
+  $padding: false
+) {
+  h2 {
+    @if $h2 {
+      display: block;
+    } @else {
+      display: none;
+    }
+  }
+  @if $padding {
+    padding: 70px 30px;
+  }
+  background-color: $bg;
+  color: $color;
+  height: $height;
+  h2 {
+    display: none;
+  }
+}
+@mixin setBlockService($bg: $color-jaune, $br: left, $border: false) {
+  background-color: $bg;
+  border-#{$br}-radius: 30px;
+  @if $border {
+    border: 1px solid $color-black;
+  }
+}
+@mixin setColorService(
+  $left: $color-jaune,
+  $right: $color-red,
+  $border: false
+) {
+  .left {
+    background-color: $left;
+  }
+  .right {
+    background-color: $right;
+    @if $border {
+      border: 1px solid $color-black;
+    }
+  }
+}

@@ -1,0 +1,181 @@
+/*settings*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+/* je définis mon scroll et la taille de police "base" de ma page */
+html {
+    scroll-behavior: smooth;
+    font-size: 1rem;
+}
+
+/* N'oubliez pas la virgule pour sélectionner plusieurs balises ou class */
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #303F9F;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 3px;
+    color: #448AFF;
+    padding-left: 25px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: 3.375rem;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 3.375rem;
+    line-height: 3.375rem;
+    margin: 3.375rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+footer {
+    color: #1C2A6E;
+}
+
+/* Settings de "base" de mes sections */
+#about,
+#skills,
+#contact {
+    margin: 100px;
+    padding: 100px;
+}
+
+/*END settings*/
+
+
+/* HEADER */
+header {
+    height: 600px;
+    background: url('img/headerOk.jpg') center center;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: 75px;
+    padding-right: 50px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    line-height: 75px;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+/* END HEADER */
+
+
+/* MAIN */
+
+/* about */
+.aboutFlex {
+    display: flex;
+    align-items: center;
+}
+
+/* END about */
+
+
+/* SKILLS */
+#skills p {
+    margin-left: 75px;
+}
+
+/* END SKILLS */
+
+
+/* gallery */
+#gallery {
+    background: url('img/bg.jpg');
+    padding: 100px;
+}
+
+/* class particulière juste sur ce h2 */
+.h2Gallery {
+    color: #fcfcfc;
+}
+
+.flexGallery img {
+    width: 30%;
+    height: auto;
+    border: 1px solid #0099FF !;
+    border-radius: 10px;
+    margin: 25px;
+    filter: grayscale(100%);
+}
+
+/* supprime l'effet grayscale au survole de la souris */
+.flexGallery img:hover {
+    filter: none;
+}
+
+/* end gallery */
+
+
+/* contact */
+input {
+    margin-bottom: 10px;
+}
+
+.flexFormulaire {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+textarea {
+    margin-top: 25px;
+}
+
+input:last-child {
+    margin-top: 15px;
+    background-color: #1C2A6E;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+/* END CONTACT */
+
+/* FOOTER */
+footer {
+    background-color: #1C2A6E;
+    text-align: center;
+}
+
+footer ul {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* END FOOTER */

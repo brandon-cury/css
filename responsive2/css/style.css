@@ -1,0 +1,42 @@
+p {
+  margin: 0;
+}
+p:nth-child(1) {
+  background-color: blue;
+}
+p:nth-child(2) {
+  background-color: rgb(0, 255, 123);
+}
+p:nth-child(3) {
+  background-color: rgb(172, 19, 121);
+}
+p:nth-child(4) {
+  background-color: rgb(255, 17, 0);
+}
+/* Tablette */
+@media screen and (min-width: 768px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* endTablette */
+/* Desktops */
+@media screen and (min-width: 992px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* endDesktops */
+/* Pc */
+@media screen and (min-width: 1200px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  p {
+    margin: 30px;
+  }
+}
+/* endPc */

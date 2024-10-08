@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["sass/partials/_font.scss","sass/partials/_settings.scss","sass/partials/_variables.scss","sass/partials/_body.scss"],"names":[],"mappings":"AAAQ;ACAR;AACA;EACE;EACA;EACA;EACA;EACA;EACA;EACA;;;AAEF;EACE,kBCTkB;EDUlB,OCXY;;;ADad;AEdA;AACA;EACE,kBDFW;;;ACIb;AAAA;AAAA;EAGE,ODNY;;;ACQd","file":"style.css"}

@@ -1,0 +1,5 @@
+@mixin settingSection($bg: $color-moyen, $color: $color-clair) {
+  padding: 30px 30px 30px 30px;
+  background-color: $bg;
+  color: $color;
+}

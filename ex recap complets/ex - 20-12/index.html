@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Compu Web</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#story">Notre histoire</a></li>
+                <li><a href="#salon">Le salon</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="barber/header.jpg" alt="img du salon">
+    </header>
+    <!-- END HEADER -->
+
+
+    <!-- MAIN -->
+    <main>
+        <h1>Haircut</h1>
+
+        <!-- ABOUT -->
+        <section id="story">
+            <h2>Notre histoire</h2>
+            <div class="about">
+                <!-- je vais créer un display flex sur about pour mettre mon image d'un coté et mes DEUX paragraphes de l'autre. du coup, j'englobe mes deux paragraphes de droite dans une div pour n'en faire """""qu'un paquet""""" mon image ira donc à gauche et mon "paquet" de paragraphe à droite -->
+                <img src="barber/barber.png" alt="">
+                <div class="paraAbout">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem debitis dicta officia odit ullam
+                        sed vero facere aut tempora, enim quae quisquam corporis expedita ipsam et adipisci cumque
+                        commodi non, perspiciatis rerum itaque minima quo quibusdam dolor. Magnam modi unde eligendi
+                        quis a. Nisi error quam eligendi iure quae! Obcaecati
+                        est accusantium, optio sunt aspernatur minima impedit veniam rem fugit atque cupiditate error
+                        officia enim eum ab!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non magni, consectetur ut animi vero
+                        soluta fugit possimus nam provident sunt quod a maxime quas eligendi eius, fuga off
+                        temporibus? Accusantium dolore eius, quos quae hic beatae cupiditate expedita corrupti tempora
+                        eos necessitatibus recusandae minus natus reprehenderit vitae sed laboriosam accusamus at
+                        nesciunt doloribus. Cum consectetur quo temporibus voluptatum sed natus perspiciatis sit enim
+                        dolore quia exercitationem blanditiis odit tenetur modi, labore, et asperiores ab laudantium at.
+                        Facere blanditiis natus beatae doloribus harum inventore distinctio similique incidunt,
+                        deserunt, modi officia, at eveniet aut obcaecati odit quae tempora sint? Laudantium sapiente
+                        distinctio tempore. Odio facilis dignissimos unde quaerat nam dolore maxime nesciunt blanditiis
+                        dolorem aliquam voluptatum pariatur a reprehenderit quidem expedita iure non, quia labore ut
+                        nihil molestias modi sit atque. Itaque, molestias ad eveniet suscipit nesciunt quae atque veniam
+                        repellendus iste quibusdam dicta ratione sint minus nisi, quis quisquam impedit natus
+                        distinctio? Impedit eius, consequuntur reiciendis fugit aspernatur atque earum officiis nihil
+                        eveniet a voluptates ratione distinctio dicta.</p>
+                </div>
+            </div>
+        </section>
+        <!-- END ABOUT -->
+
+        <!-- un p'tit séparateur. je dois lui donner une hauteur et une couleur en CSS sinon il ne se présentara que sous la forme d'une ligne -->
+        <hr>
+
+
+
+        <!-- GALLERY -->
+        <!-- ne vous rendez pas malade sur la mise en page des images sur deux rangées. nous verrons bien vite le display grid -->
+        <section id="gallery">
+            <h2 class="h2Gallery">Le salon</h2>
+            <div class="flexGallery">
+                <div class="border">
+                    <img src="img/1.jpg" alt="img du bureau">
+                </div>
+                <div class="border">
+                    <img src="img/2.jpg" alt="img du bureau">
+                </div>
+                <div class="border">
+                    <img src="img/3.jpg" alt="img du bureau">
+                </div>
+            </div>
+            <div class="flexGallery">
+                <div class="border">
+                    <img src="img/4.jpg" alt="img du bureau">
+                </div>
+                <div class="border">
+                    <img src="img/5.jpg" alt="img du bureau">
+                </div>
+                <div class="border">
+                    <img src="img/6.jpg" alt="img du bureau">
+                </div>
+
+            </div>
+        </section>
+        <!-- END GALLERY -->
+
+        <hr>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <div class="contactLeft">
+                <h2>Contact</h2>
+                <h3>Haircut</h3>
+                <address>
+                    <p>adresse</p>
+                    <p>adresse</p>
+                    <p>adresse</p>
+                </address>
+            </div>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.6732609742967!2d4.8775642!3d50.4658088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c199117927f9e9%3A0x306df450d8ca6508!2sPl.%20de%20l&#39;Ecole%20des%20Cadets%206%2C%205000%20Namur!5e0!3m2!1sfr!2sbe!4v1703071648542!5m2!1sfr!2sbe"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <!-- END CONTACT -->
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <h3>Haircut</h3>
+        <p>copyringht etc</p>
+    </footer>
+    <!-- FOOTER -->
+
+</body>
+
+</html>

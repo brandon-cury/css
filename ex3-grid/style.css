@@ -1,0 +1,45 @@
+/* grid-column: 1 / span 4; tu commence a la colonne 1 et fait 4 span */
+/* ne pas spécifié quand il y a le span 1 */
+
+p {
+  padding: 15px;
+  font-size: 20px;
+}
+
+#parent {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+  gap: 15px;
+}
+
+.orange {
+  background-color: orange;
+  grid-column: 1 / span 4;
+}
+
+.vert {
+  background-color: green;
+  grid-row: 2 / span 2;
+}
+
+.rose {
+  background-color: pink;
+  grid-column: 2 / span 3;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.mauve {
+  background-color: rebeccapurple;
+}
+
+.brun {
+  background-color: brown;
+}
+
+.rouge {
+  background-color: red;
+  grid-column: 1 / span 4;
+}

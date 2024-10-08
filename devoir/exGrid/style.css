@@ -1,0 +1,84 @@
+/* Setting*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lobster&family=Poppins:wght@300&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2 {
+  font-family: "Lato", sans-serif;
+  font-family: "Lobster", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  text-transform: capitalize;
+}
+h2 {
+  font-weight: bold;
+}
+
+.color-gold {
+  color: gold;
+}
+section {
+  padding: 50px;
+  padding-bottom: 0;
+}
+/* endSetting*/
+/* Nav */
+header {
+  background-color: #6969f0;
+}
+nav {
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+
+  justify-content: center;
+  padding: 20px 0;
+}
+nav ul li {
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+/* endNav */
+/*  Descript */
+.grid-colon-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.titleDest {
+  margin: auto;
+}
+.titleDest h1 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bolder;
+  text-align: center;
+}
+.titleDest h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.titleDest p {
+  color: white;
+  font-size: 14px;
+}
+.titleDest .lien {
+  text-align: center;
+  margin-top: 20px;
+}
+.titleDest .lien a {
+  background-color: gold;
+  width: max-content;
+  padding: 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+}
+/*  endDescript */

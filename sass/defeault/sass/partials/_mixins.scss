@@ -1,0 +1,24 @@
+@mixin settingSection(
+  $h2: false,
+  $bg: $color-clair,
+  $color: $color-black,
+  $height: 900px,
+  $padding: false
+) {
+  h2 {
+    @if $h2 {
+      display: block;
+    } @else {
+      display: none;
+    }
+  }
+  @if $padding {
+    padding: 70px 30px;
+  }
+  background-color: $bg;
+  color: $color;
+  height: $height;
+  h2 {
+    display: none;
+  }
+}

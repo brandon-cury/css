@@ -1,0 +1,42 @@
+.firstL::first-letter {
+  color: red;
+}
+.firstLine::first-line {
+  color: orange;
+}
+
+ul {
+  display: flex;
+  gap: 30px;
+}
+ul li {
+  list-style: none;
+}
+.navFooter a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.navFooter a:active {
+  color: green;
+}
+.navFooter a:visited {
+  color: red;
+}
+input:invalid {
+  color: red;
+}
+input:valid {
+  color: green;
+}
+.para p:nth-child(even) {
+  color: red;
+}
+.para p:nth-child(odd) {
+  color: green;
+}
+.para div > p {
+  background-color: olivedrab;
+}
+.para div ~ p {
+  background-color: olivedrab;
+}

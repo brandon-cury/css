@@ -1,0 +1,22 @@
+/* Chaque bloc de commentaire est un exercice différent.
+    On avait un exemple au tableau à reproduire*/
+.red {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+
+  /*baisse le carré rouge et bleu
+    margin-top: 100px;*/
+
+  /*margin-right: 50%;*/
+}
+
+.blue {
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+
+  /*margin: 50px 0;
+  padding: 100px;*/
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice Fianl HTML</title>
+  </head>
+  <body>
+    <header>
+      <img src="img/img_header.jpg" alt="image principale" />
+      <h1>Présentation Web Dev 2023-2024</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Description</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+          repellendus possimus et, distinctio, ad perspiciatis saepe amet vero
+          dicta eius quasi. Esse, doloribus quas. Reiciendis aperiam dolorem
+          repellat atque accusantium!
+        </p>
+      </section>
+      <section>
+        <h2>Liste des ours</h2>
+        <ul>
+          <li>Aproche UI/UX</li>
+          <li>CMS</li>
+          <li>Veille Technologie</li>
+          <li>
+            Initiation à la programmation
+            <ul>
+              <li>Niveau 1</li>
+              <li>Niveau 2</li>
+            </ul>
+          </li>
+          <li>FrameWork de POO</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Répartition des heures</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th colspan="3">EAFC Namur</th>
+            </tr>
+            <tr>
+              <th>Nom</th>
+              <th>Professeur</th>
+              <th>Nbr de Périodes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Design</td>
+              <td>Smeers</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>CMS</td>
+              <td>Van Ass</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>Veille techno</td>
+              <td>Mayard</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td rowspan="2">Programmation</td>
+              <td rowspan="2">Servais</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>POO</td>
+              <td>Van Ass</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Total</td>
+              <td>500</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section>
+        <h2>Quelques photos</h2>
+        <figure>
+          <img src="img/code-1839406_640.jpg" alt="web dev" />
+          <img src="img/hands-820272_640.jpg" alt="web dev" />
+          <figcaption>Image Représentant la formation</figcaption>
+        </figure>
+      </section>
+      <section id="sectionContact">
+        <h2>Formulaire de Contact</h2>
+        <form action="#" method="get">
+          <input type="radio" name="genre" id="mm" value="mm" />
+          <label for="mm">Madame</label><br />
+          <input type="radio" name="genre" id="md" value="md" />
+          <label for="md">Mademoiselle</label><br />
+          <input type="radio" name="genre" id="ms" value="ms" />
+          <label for="ms">Monsieur</label><br />
+
+          <label for="firstName">Votre Noms: </label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="Moukam"
+          /><br />
+
+          <label for="sujet">Sujet de votre Message</label>
+          <select name="sujet" id="sujet">
+            <option>Sélectionnez...</option>
+            <option value="insp">Une inscription</option>
+            <option value="info">Une information</option>
+            <option value="dossier">Mon dossier d'inscription</option>
+            <option value="all">Autres</option></select
+          ><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Votre message"
+          ></textarea
+          ><br />
+          <input type="checkbox" name="newslatter" id="newslatter" />
+          <label for="newslatter">Recevoir la Newslatter</label><br />
+          <input type="submit" value="Envoyer" />
+          <input type="reset" value="Réinitialiser" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <section id="adresse">
+        <h2>Cordonnées</h2>
+        <address>
+          EAFC NAMUR-Cadets <br />
+          Place de l'école des Cadets <br />
+          5000 Namur
+        </address>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2539.6732664332258!2d4.872693288748402!3d50.46580869835532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c19911762f411d%3A0x3730fdb0385bc55e!2sEAFC%20NAMUR%20CADETS!5e0!3m2!1sfr!2sbe!4v1700822574955!5m2!1sfr!2sbe"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+    </footer>
+  </body>
+</html>

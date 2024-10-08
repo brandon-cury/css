@@ -1,0 +1,58 @@
+/* Settings */
+
+/* 
+Importer une police : 
+- toujours sur google fonts (car fonctionne partout)
+- choisir sa police 
+- soit link soit @import
+- choisir import car moins lourd (et enlever les <style>)
+
+Dans mon import, deux police sont importées en même temps. 
+*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@300&display=swap");
+
+/* END Settings */
+
+/* 
+Si on veut ajouter une police depuis son pc. En cas de police personnalisée ou autre.
+@font-face {
+    font-family: "Roboto";
+    src: url();
+}
+*/
+
+body {
+  padding: 50px;
+  font-size: 1rem;
+}
+
+h1 {
+  /*Changer la police. CTRL + SPACEBAR pour afficher la liste*/
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+
+  /*Majuscule, divers choix de transformation de texte*/
+  text-transform: uppercase;
+
+  /*Souligner underline + dotted pour pointillé
+  text decoration : none; -> enlève le soulignement (utile pour les liens)*/
+  text-decoration: underline blue dotted;
+  /* text-decoration-color: blue; */
+
+  /*couleur, décalage, hauteur, flou*/
+  text-shadow: #f70029 1px 0 10px;
+}
+
+p {
+  /*text-align: center ou justify;*/
+
+  /*Espace entre les lignes et mots en PX*/
+  letter-spacing: 1px;
+  word-spacing: 5px;
+
+  /*Utilser du rem pour le line height*/
+  line-height: 1.5rem;
+}

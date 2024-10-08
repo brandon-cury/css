@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Les formulaires</h1>
+
+    <h2>Formulaires de Base</h2>
+
+    <form action="#" method="">
+      <label for="firstName">Votre nom: </label>
+      <input type="url" id="firstName" name="firstName" /> <br />
+
+      <label for="lastName">Prenom</label>
+      <input type="text" name="lastName" /> <br />
+
+      <label for="mail">Votre adresse email</label>
+      <input type="email" id="mail" name="newsletter" /><br />
+
+      <label for="url">Url de votre site</label>
+      <input
+        type="url"
+        name="url"
+        id="url"
+        placeholder="https://infoox.net"
+        pattern="https://.*"
+      />
+      <br />
+
+      <label for="child">Nombre d'enfant</label>
+      <input type="number" name="child" id="child" min="0" max="10" /><br />
+
+      <label for="birthay">Votre age</label>
+      <input
+        type="date"
+        id="birthay"
+        name="age"
+        min="2023-11-23"
+        value="2023-11-23"
+        disabled
+      /><br />
+
+      <label for="password">Mot de passe</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        pattern="^[A-Z][0-9][a-zA-Z\d]{5,}$"
+        required
+      /><br />
+
+      <input type="submit" value="Envoyer" />
+    </form>
+
+    <h2>Boutons radio</h2>
+    <form action="#">
+      <label for="monsieur">Monsieur</label>
+      <input type="radio" name="genre" id="monsieur" value="h" checked />
+      <label for="madame">Madame</label>
+      <input type="radio" name="genre" id="madame" value="f" /><br />
+
+      <label for="firstName">Nom :</label>
+      <input type="text" name="firstName" id="firstName" required /><br />
+
+      <label for="lastName">Prénom :</label>
+      <input type="text" name="lastName" id="lastName" required />
+
+      <fieldset>
+        <legend>Voulez-vous une newsletter ?</legend>
+
+        <label for="newsletterTrue">Oui</label>
+        <input
+          type="radio"
+          name="newsletter"
+          id="newsletterTrue"
+          value="1"
+          checked
+        />
+
+        <label for="newsletterFalse">Non</label>
+        <input
+          type="radio"
+          name="newsletter"
+          id="newsletterFalse"
+          value="0"
+        /><br />
+      </fieldset>
+
+      <input type="submit" value="Envoyer" />
+    </form>
+
+    <h2>Les Checkbox</h2>
+    <form action="#">
+      <p>Quel sport aimez-vous ?</p>
+      <label for="b">Boxe</label>
+      <input type="checkbox" name="sport" id="b" value="boxe" />
+      <label for="films">films</label>
+      <input type="checkbox" name="sport" id="films" />
+    </form>
+
+    <h2>champ particulier</h2>
+    <form action="#" method="get" enctype="multipart/form-data">
+      <label for="upload">Upload le ficher</label>
+      <input type="file" name="file" id="upload" />
+    </form>
+  </body>
+</html>

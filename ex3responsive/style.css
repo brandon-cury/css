@@ -1,0 +1,68 @@
+/* Setting */
+html {
+  --MD: 768px;
+  --L: 992px;
+  --XL: 1200px;
+}
+p {
+  color: white;
+}
+.red {
+  background-color: red;
+}
+h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.gred {
+  background-color: #ccc;
+}
+.para p:nth-child(1) {
+  background-color: #4c4a4a;
+}
+.para p:nth-child(2) {
+  background-color: rgb(194, 90, 90);
+}
+.para p:nth-child(3) {
+  background-color: blue;
+}
+.para p:nth-child(4) {
+  background-color: green;
+}
+section {
+  padding: 30px 10px;
+}
+.para p {
+  padding: 30px 10px;
+  font-size: 16px;
+}
+
+/* endSetting */
+
+/* Tablette */
+@media screen and (min-width: 768px) {
+  .premier {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+  }
+  .para {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* endTablette */
+/* Desktops */
+@media screen and (min-width: 992px) {
+  .para {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+/* endDesktops */
+/* Pc */
+@media screen and (min-width: 1200px) {
+  .para {
+    gap: 20px;
+  }
+}
+/* endPc */

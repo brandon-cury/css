@@ -1,0 +1,151 @@
+/*settings*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    font-size: 1rem;
+}
+
+
+h1 {
+    color: #E0A53F;
+}
+
+
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 3px;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 3px;
+    color: #E0A53F;
+}
+
+h2 {
+    font-size: 2.25rem;
+    margin-bottom: 3.375rem;
+    letter-spacing: 3px;
+}
+
+h1 {
+    font-size: 3.375rem;
+    color: #E0A53F;
+    margin: 3.375rem;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#story,
+#salon,
+#gallery,
+#contact {
+    padding: 100px;
+    margin: 100px;
+}
+
+hr {
+    height: 300px;
+    background-color: grey;
+}
+
+/* END SETTINGS */
+
+
+/* NAVBAR */
+nav {
+    background-color: #4D300F;
+    height: 55px;
+    padding: 15px 50px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+}
+
+
+nav ul li {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FCFCFC;
+}
+
+/* END NAVBAR */
+
+/* ABOUT */
+.about {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.about>img {
+    border-radius: 15px;
+}
+
+.paraAbout {
+    padding: 50px;
+}
+
+/* END ABOUT */
+
+
+
+/* Salon */
+.flexGallery {
+    display: flex;
+}
+
+.border {
+    border: 2px solid rgb(168, 166, 166);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.border>img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+/* END Salon */
+
+/* Contact */
+#contact {
+    display: flex;
+    justify-content: start;
+}
+
+.contactLeft {
+    width: 50%;
+}
+
+/* END Contact */
+
+
+/* FOOTER */
+footer {
+    background-color: #4D300F;
+    text-align: center;
+    padding: 50px;
+    height: 200px;
+}
+
+footer>p {
+    color: #fcfcfc;
+}
+
+/* END FOOTER */

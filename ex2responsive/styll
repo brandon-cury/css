@@ -1,0 +1,28 @@
+/* Nav */
+ul {
+  margin-top: 10px;
+  display: flex;
+  background-color: #ccc;
+  gap: 20px;
+  justify-content: end;
+  padding: 5px 0;
+  margin-bottom: 2px;
+}
+ul li {
+}
+ul li:last-child {
+  margin-right: 10px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  display: block;
+  padding: 8px;
+}
+ul li a:hover {
+  background-color: black;
+  color: white;
+}
+/* endNav */

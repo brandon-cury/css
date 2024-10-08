@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Solutions Web</title>
+  </head>
+  <body>
+    <header>
+      <img src="../4-size/img/header.jpg" alt="image du Web" />
+      <h1>Solutions Web</h1>
+    </header>
+    <main>
+      <!-- Section unique et vont servir à la navigation donc on met un ID -->
+      <section id="about">
+        <h2>About me</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam rem
+          quo omnis, natus tempore perferendis! A animi nulla consequatur
+          deleniti aperiam voluptate, odit autem, explicabo accusantium
+          voluptates dolore, possimus sit quisquam culpa corrupti enim dolores
+          debitis ab voluptatibus pariatur? Dicta unde quo recusandae illo ullam
+          dolorum? Aut quo explicabo doloremque. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Doloremque, minima possimus deserunt eos
+          praesentium tempora dolore placeat itaque enim sunt pariatur
+          consequatur quo ex animi laudantium eaque soluta. Accusantium animi
+          saepe deleniti quidem debitis? Voluptatem quod, eos adipisci,
+          accusamus, nostrum minus fugit iste tenetur voluptatibus ipsum eveniet
+          deserunt consectetur vitae!Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Totam rem quo omnis, natus tempore perferendis! A
+          animi nulla consequatur deleniti aperiam voluptate, odit autem,
+          explicabo accusantium voluptates dolore, possimus sit quisquam culpa
+          corrupti enim dolores debitis ab voluptatibus pariatur? Dicta unde quo
+          recusandae illo ullam dolorum? Aut quo explicabo doloremque. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Doloremque, minima
+          possimus deserunt eos praesentium tempora dolore placeat itaque enim
+          sunt pariatur consequatur quo ex animi laudantium eaque soluta.
+          Accusantium animi saepe deleniti quidem debitis? Voluptatem quod, eos
+          adipisci, accusamus, nostrum minus fugit iste tenetur voluptatibus
+          ipsum eveniet deserunt consectetur vitae!Lorem ipsum dolor, sit amet
+          consectetur adipisicing elit. Totam rem quo omnis, natus tempore
+          perferendis! A animi nulla consequatur deleniti aperiam voluptate,
+          odit autem, explicabo accusantium voluptates dolore, possimus sit
+          quisquam culpa corrupti enim dolores debitis ab voluptatibus pariatur?
+          Dicta unde quo recusandae illo ullam dolorum? Aut quo explicabo
+          doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Doloremque, minima possimus deserunt eos praesentium tempora dolore
+          placeat itaque enim sunt pariatur consequatur quo ex animi laudantium
+          eaque soluta. Accusantium animi saepe deleniti quidem debitis?
+          Voluptatem quod, eos adipisci, accusamus, nostrum minus fugit iste
+          tenetur voluptatibus ipsum eveniet deserunt consectetur vitae!
+        </p>
+      </section>
+
+      <section id="galerie">
+        <h2 class="titleGalerie">Nos installations</h2>
+        <figure>
+          <img
+            class="imgInstal"
+            src="../4-size/img/photoInstal1.jpg"
+            alt="Image installation 1"
+          />
+          <!-- <img
+            class="imgInstal"
+            src="../4-size/img/photoInstal2.jpg"
+            alt="Image installation 2"
+          /> -->
+          <figcaption>Nos locaux</figcaption>
+        </figure>
+      </section>
+
+      <section id="contact">
+        <h2>Nous contacter</h2>
+        <form action="#">
+          <label for="lastname">Votre nom: </label>
+          <input class="underLine" type="text" name="lastname" id="lastname" />
+          <br />
+
+          <label for="firstName">Votre prénom: </label>
+          <input
+            class="underLine"
+            type="text"
+            name="firstName"
+            id="firstName"
+          />
+          <br />
+
+          <textarea
+            name="msg"
+            id="msg"
+            cols="30"
+            rows="10"
+            placeholder="Votre message"
+          ></textarea>
+          <br />
+          <input type="checkbox" name="robot" id="robot" value="robot" />
+          <label for="robot">Je ne suis pas un robot</label>
+
+          <input class="sendBtn" type="submit" value="Envoyer" />
+        </form>
+
+        <h3>Nous sommes également joignable via:</h3>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/?locale=fr_FR" target="_blank"
+              >Facebook</a
+            >
+          </li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/home?lang=fr" target="_blank"
+              >Twitter</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Solutions Web</p>
+      <p class="mentions"><u>Mentions Légales / RGPD</u></p>
+    </footer>
+  </body>
+</html>

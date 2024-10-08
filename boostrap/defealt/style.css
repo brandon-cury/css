@@ -1,0 +1,38 @@
+/* Setting Scale 1.250 */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+  font-size: 1rem;
+}
+.row p:nth-child(1) {
+  background-color: red;
+}
+.row p:nth-child(2) {
+  background-color: yellow;
+}
+.row p:nth-child(3) {
+  background-color: orchid;
+}
+.row p:nth-child(4) {
+  background-color: green;
+}
+.row p:nth-child(5) {
+  background-color: olivedrab;
+}
+.row p:nth-child(6) {
+  background-color: salmon;
+}
+/* endSetting */
+
+/* Tablette */
+@media screen and (min-width: 768px) {
+}
+/* endTablette */
+/* Desktops */
+@media screen and (min-width: 992px) {
+}
+/* endDesktops */
+/* Pc */
+@media screen and (min-width: 1200px) {
+}
+/* endPc */

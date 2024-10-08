@@ -1,0 +1,39 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  color: #6d8764;
+}
+.colorBleu {
+  color: #2f32d3;
+}
+li {
+  font-style: italic;
+}
+#sectionContact {
+  height: auto;
+  width: 100%;
+  background-color: #252525;
+  text-align: center;
+}
+#sectionContact h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  font-size: 50px;
+}
+#sectionContact form {
+  display: block;
+  width: 600px;
+  background: red;
+}
+#sectionContact .input {
+  position: relative;
+  display: block;
+  margin: 10px 0 10px 5px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}

@@ -1,0 +1,19 @@
+#mainTitle {
+  color: #27213c;
+}
+/* le .  cible la classe ici color */
+
+/*  */
+.pcolor {
+  color: #f91700;
+}
+/* Dans le Css on cible les id avec le # 
+Donc elles sont definit une fois et on peut reutiliser exemple
+H1 id mainTitle et dans le css on definit pour cible #mainTitle*/
+
+.lightColor {
+}
+/* les # c est pour parler au id et les . c est pour les classes */
+
+.darkColor {
+}

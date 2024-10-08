@@ -1,0 +1,19 @@
+/* Setting */
+html {
+  font-size: 1rem;
+  --pcolor: #0000ff;
+  --scolor: #e0a9e0;
+}
+h1 {
+  font-size: 3.54rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+.un {
+  color: var(--pcolor);
+}
+.deux {
+  color: var(--scolor);
+}
+/* endSetting */

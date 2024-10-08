@@ -1,0 +1,19 @@
+:root {
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 3.35rem;
+  color: white;
+  text-decoration: dotted;
+  font-style: italic;
+}
+
+// pas très utile pour les titres mais pour les sections par exemple
+// si toute nos session font 100vh, avec un margin mais d'une couleur sur deux, ça sera plus simple
+h2 {
+  // extend reprend les propriétés du h1 et modifie ce qu'on réécrit
+  @extend h1;
+  font-size: 2.25rem;
+}

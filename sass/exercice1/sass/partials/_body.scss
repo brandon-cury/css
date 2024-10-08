@@ -1,0 +1,119 @@
+/* NavBar Tab*/
+html {
+  padding-top: 85px;
+  scroll-padding-top: 90px;
+}
+header {
+  nav {
+    position: relative;
+    background: $color-fonce;
+    color: $color-clair;
+    .navPc {
+      display: block;
+
+      .menu1 {
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 2;
+        top: 0;
+        white-space: nowrap;
+        width: 100%;
+        height: 90px;
+        background-color: $color-fonce;
+        padding: 5px 30px;
+
+        .logoName a {
+          text-decoration: none;
+          display: block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+
+          img {
+            width: 50px;
+            height: 50px;
+          }
+          strong {
+            color: $color-clair;
+            text-transform: capitalize;
+            font-family: "Dancing Script", cursive;
+            font-size: 3.052rem;
+          }
+        }
+        .ul1 {
+          position: relative;
+          gap: 10px;
+          font-size: 20px;
+          display: flex;
+          flex-wrap: wrap;
+          margin: 0px;
+          padding: 0;
+
+          li {
+            position: relative;
+            text-transform: capitalize;
+            text-indent: 10px;
+            cursor: pointer;
+            a {
+              text-decoration: none;
+              color: var(--nav-ul1-color);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* NavBar Tab*/
+  /* slider principale */
+  .flowersbg {
+    height: 400px;
+    background: url("img/flower-3659449_1280.jpg") no-repeat center / cover;
+    h1 {
+      position: relative;
+      background-color: rgba(216, 167, 235, 0.7);
+      top: 50%;
+      transform: translateY(-50%);
+      text-transform: capitalize;
+      text-align: center;
+    }
+  }
+}
+/* end slider principale */
+/* Galerie */
+#galerie {
+  @include settingSection();
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+    .item {
+      overflow: hidden;
+      margin: 20px;
+
+      width: auto;
+      border: 1px solid black;
+      max-width: 330px;
+
+      background-color: $color-clair;
+      color: black;
+      border-radius: 20px;
+
+      img {
+        width: 100%;
+      }
+      h3 {
+        margin-left: 10px;
+      }
+      p {
+        padding: 0 12px 12px;
+      }
+    }
+  }
+}
+
+/* endGalerie */

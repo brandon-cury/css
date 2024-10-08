@@ -1,0 +1,187 @@
+/*
+font-family: "Poppins", sans-serif; detail fin
+ font-family: "Cormorant Garamond", serif; //titre
+ font-family: ; Menu, bouton, lien 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,595;1,595&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* Setting Scale 1.250 */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px;
+  font-size: 1rem;
+  background: #d8a7eb;
+  color: #f2f2f2;
+  padding-top: 50px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+h2 {
+  font-size: 3.052rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: white;
+  border-left: 5px solid rgb(255, 166, 0);
+  padding-left: 12px;
+}
+
+h3 {
+  font-size: 2.441rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.953rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.aside,
+address {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.953rem;
+  font-weight: 500;
+  color: white;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+.linkStyle1:hover {
+  text-decoration: none;
+}
+
+h1,
+.grandTitre {
+  font-size: 3.815rem;
+}
+
+/* endSetting */
+/* NavBar Tab*/
+html {
+  padding-top: 85px;
+  scroll-padding-top: 90px;
+}
+
+header {
+  /* NavBar Tab*/
+  /* slider principale */
+}
+header nav {
+  position: relative;
+  background: #9b59b6;
+  color: #f2f2f2;
+}
+header nav .navPc {
+  display: block;
+}
+header nav .navPc .menu1 {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  top: 0;
+  white-space: nowrap;
+  width: 100%;
+  height: 90px;
+  background-color: #9b59b6;
+  padding: 5px 30px;
+}
+header nav .navPc .menu1 .logoName a {
+  text-decoration: none;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header nav .navPc .menu1 .logoName a img {
+  width: 50px;
+  height: 50px;
+}
+header nav .navPc .menu1 .logoName a strong {
+  color: #f2f2f2;
+  text-transform: capitalize;
+  font-family: "Dancing Script", cursive;
+  font-size: 3.052rem;
+}
+header nav .navPc .menu1 .ul1 {
+  position: relative;
+  gap: 10px;
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0;
+}
+header nav .navPc .menu1 .ul1 li {
+  position: relative;
+  text-transform: capitalize;
+  text-indent: 10px;
+  cursor: pointer;
+}
+header nav .navPc .menu1 .ul1 li a {
+  text-decoration: none;
+  color: var(--nav-ul1-color);
+}
+header .flowersbg {
+  height: 400px;
+  background: url("img/flower-3659449_1280.jpg") no-repeat center/cover;
+}
+header .flowersbg h1 {
+  position: relative;
+  background-color: rgba(216, 167, 235, 0.7);
+  top: 50%;
+  transform: translateY(-50%);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+/* end slider principale */
+/* Galerie */
+#galerie {
+  padding: 30px 30px 30px 30px;
+  background-color: #d8a7eb;
+  color: #f2f2f2;
+}
+#galerie .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0;
+}
+#galerie .items .item {
+  overflow: hidden;
+  margin: 20px;
+  width: auto;
+  border: 1px solid black;
+  max-width: 330px;
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 20px;
+}
+#galerie .items .item img {
+  width: 100%;
+}
+#galerie .items .item h3 {
+  margin-left: 10px;
+}
+#galerie .items .item p {
+  padding: 0 12px 12px;
+}
+
+/* endGalerie */
+
+/*# sourceMappingURL=style.css.map */

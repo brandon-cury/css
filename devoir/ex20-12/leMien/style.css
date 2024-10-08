@@ -1,0 +1,152 @@
+/* seting */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Roboto+Mono:ital,wght@1,100&display=swap");
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 30px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: #9e6b30;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+nav {
+  background-color: #4d300f;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  color: #4d300f;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 900;
+}
+#historie,
+#salon,
+#contact,
+#footer {
+  padding-right: 50px;
+  padding-left: 50px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+hr {
+  background-color: #d2cbc3;
+  height: 150px;
+}
+/* endSeting */
+
+/* nav */
+nav {
+  display: flex;
+  min-height: 50px;
+  position: fixed;
+  width: 100%;
+}
+nav span {
+  margin: auto 0;
+  margin-left: 20px;
+  color: #e0a53f;
+}
+nav ul {
+  display: flex;
+
+  width: 100%;
+  justify-content: end;
+  gap: 30px;
+}
+nav ul li {
+  margin: auto 0;
+  font-size: 16px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li:last-child {
+  margin-right: 20px;
+}
+/* Endnav */
+
+/* slider */
+#slider img {
+  width: 100%;
+  height: auto;
+}
+/* endSlider */
+/* histoire */
+#historie .block {
+  display: flex;
+  gap: 10px;
+}
+#historie .block img {
+  width: 400px;
+  height: auto;
+  border-radius: 40px;
+}
+#historie .block p {
+  padding-top: 50px;
+}
+/* endHistoire */
+
+/* salon */
+#salon .galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+#salon .galery .galeryElement {
+  padding: 30px;
+  width: 30%;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+#salon .galery .galeryElement img {
+  border-radius: 20px;
+  filter: blur(1px);
+}
+#salon .galery .galeryElement:hover {
+  padding: 0px;
+  transition: 1s;
+}
+#salon .galery .galeryElement:hover img {
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  border: 5px solid #e0a53f;
+  filter: blur(0px);
+}
+/* endSalon */
+/* contact */
+#contact .contactContent {
+  display: flex;
+}
+#contact .contactContent h3 {
+  color: #9e6b30;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#contact .contactContent div {
+  width: 50%;
+}
+#contact address {
+  font-style: normal;
+}
+/* endContact */
+/* footer */
+#footer {
+  background-color: #4d300f;
+  text-align: center;
+}
+
+#footer h2 {
+  color: #9e6b30;
+}
+#footer p {
+  color: white;
+}
+/* endFooter */
